@@ -2,6 +2,8 @@ package PolymorphismAnimals;
 
 public class App {
 	public static void main(String[] args) {
+		
+		// Insect is Superclass
 		Insect allInsects[] = new Insect[4];
 		
 		allInsects[0] = new Roach();
