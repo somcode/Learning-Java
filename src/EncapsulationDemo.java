@@ -36,9 +36,9 @@ public class EncapsulationDemo {
 		obj.setEmpNmae("John");
 		obj.setEmpAge(23);
 		
-		System.out.println(obj.getEmpSSN());
-		System.out.println(obj.getEmpName());
-		System.out.println(obj.getEmpAge());
+		System.out.println("Employee SSN: " + obj.getEmpSSN());
+		System.out.println("Employee Name: " + obj.getEmpName());
+		System.out.println("Employee Age: " + obj.getEmpAge());
 	}
 
 }
